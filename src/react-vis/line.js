@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {XYPlot, XAxis, YAxis, HorizontalGridLines, LineSeries} from 'react-vis';
+import './styles.css';
 
 class LineChartRVis extends Component {
   render() {
