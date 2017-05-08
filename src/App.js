@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PieChartVictory from './victory/pie.js';
+import LineChartVictory from './victory/line.js';
 import LineChartRecharts from './recharts/line.js';
 import LineChartRVis from './react-vis/line.js';
 import logo from './logo.svg';
@@ -17,9 +17,9 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <section className="demo-victory">
-          <PieChartVictory />
+          <LineChartVictory />
         </section>
-        <section className="demo-victory">
+        <section className="demo-recharts">
           <LineChartRecharts />
         </section>
         <section className="demo-react-vis">
