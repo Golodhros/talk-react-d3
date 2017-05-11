@@ -962,6 +962,10 @@ braces@^1.8.2:
     preserve "^0.2.0"
     repeat-element "^1.1.2"
 
+browser-fingerprint@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/browser-fingerprint/-/browser-fingerprint-0.0.1.tgz#8df3cdca25bf7d5b3542d61545d730053fce604a"
+
 browser-resolve@^1.11.2:
   version "1.11.2"
   resolved "https://registry.yarnpkg.com/browser-resolve/-/browser-resolve-1.11.2.tgz#8ff09b0a2c421718a1051c260b32e48f442938ce"
@@ -1352,7 +1356,7 @@ core-js@2.4.1, core-js@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.4.1.tgz#4de911e667b0eae9124e34254b53aea6fc618d3e"
 
-core-js@^1.0.0:
+core-js@^1.0.0, core-js@^1.1.1:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
@@ -1523,6 +1527,14 @@ cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   resolved "https://registry.yarnpkg.com/cssstyle/-/cssstyle-0.2.37.tgz#541097234cb2513c83ceed3acddc27ff27987d54"
   dependencies:
     cssom "0.3.x"
+
+cuid@~1.3.8:
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/cuid/-/cuid-1.3.8.tgz#4b875e0969bad764f7ec0706cf44f5fb0831f6b7"
+  dependencies:
+    browser-fingerprint "0.0.1"
+    core-js "^1.1.1"
+    node-fingerprint "0.0.2"
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -2756,13 +2768,9 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
-iconv-lite@0.4.13:
+iconv-lite@0.4.13, iconv-lite@~0.4.13:
   version "0.4.13"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
-
-iconv-lite@~0.4.13:
-  version "0.4.17"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.17.tgz#4fdaa3b38acbc2c031b045d0edcdfe1ecab18c8d"
 
 icss-replace-symbols@^1.0.2:
   version "1.0.2"
@@ -3823,6 +3831,10 @@ node-fetch@^1.0.1:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
+node-fingerprint@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/node-fingerprint/-/node-fingerprint-0.0.2.tgz#31cbabeb71a67ae7dd5a7dc042e51c3c75868501"
+
 node-gyp@^3.3.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-3.6.1.tgz#19561067ff185464aded478212681f47fd578cbc"
@@ -4679,6 +4691,10 @@ react-dom@^15.3.0, react-dom@^15.5.4:
     object-assign "^4.1.0"
     prop-types "~15.5.7"
 
+react-dom@~15.3.2:
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.3.2.tgz#c46b0aa5380d7b838e7a59c4a7beff2ed315531f"
+
 react-motion@^0.4.7:
   version "0.4.8"
   resolved "https://registry.yarnpkg.com/react-motion/-/react-motion-0.4.8.tgz#23bb2dd27c2d8e00d229e45572d105efcf40a35e"
@@ -4774,6 +4790,35 @@ react-transition-group@^1.1.1:
     prop-types "^15.5.6"
     warning "^3.0.0"
 
+react-uikit-article@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-uikit-article/-/react-uikit-article-2.0.1.tgz#bb135a3b2afc7314a13b5cf311d00fea1a1af9a2"
+  dependencies:
+    cuid "~1.3.8"
+    react "~15.3.2"
+    react-dom "~15.3.2"
+    react-uikit-base "~2.0.2"
+    ufunc "~2.0.1"
+
+react-uikit-base@~2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-uikit-base/-/react-uikit-base-2.0.2.tgz#baee5d4f4ae0c20c924c4f519a3a8b542c1e5175"
+  dependencies:
+    cuid "~1.3.8"
+    react "~15.3.2"
+    react-dom "~15.3.2"
+    ufunc "~2.0.1"
+
+react-uikit-grid@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/react-uikit-grid/-/react-uikit-grid-2.0.3.tgz#3747d8d7de83a1a8edb5624eb5b92fc16856d2e1"
+  dependencies:
+    cuid "~1.3.8"
+    react "~15.3.2"
+    react-dom "~15.3.2"
+    react-uikit-base "~2.0.2"
+    ufunc "~2.0.1"
+
 react-vis@^2.0.0-beta.4:
   version "2.0.0-beta.4"
   resolved "https://registry.yarnpkg.com/react-vis/-/react-vis-2.0.0-beta.4.tgz#9a09647b224886e401bdea98d39206179d4028aa"
@@ -4803,6 +4848,14 @@ react@^15.3.0, react@^15.5.4:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
     prop-types "^15.5.7"
+
+react@~15.3.2:
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/react/-/react-15.3.2.tgz#a7bccd2fee8af126b0317e222c28d1d54528d09e"
+  dependencies:
+    fbjs "^0.8.4"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -5629,6 +5682,10 @@ ua-parser-js@^0.7.9:
   version "0.7.12"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.12.tgz#04c81a99bdd5dc52263ea29d24c6bf8d4818a4bb"
 
+ufunc@~2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ufunc/-/ufunc-2.0.1.tgz#1f47f597ef52ff44c615d4fb67e31cc5657b55cb"
+
 uglify-js@^2.6, uglify-js@~2.8.22:
   version "2.8.22"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.22.tgz#d54934778a8da14903fa29a326fb24c0ab51a1a0"
@@ -5654,6 +5711,10 @@ uglify-to-browserify@~1.0.0:
 uid-number@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
+
+uikit@^3.0.0-beta.22:
+  version "3.0.0-beta.22"
+  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.0.0-beta.22.tgz#8a0503d792751f27b22b4ce45da76131f0cc27d4"
 
 uniq@^1.0.1:
   version "1.0.1"
