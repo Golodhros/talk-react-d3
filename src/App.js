@@ -18,12 +18,14 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <D3Logo />
         </div>
-        <h2>React + D3 Library Demo</h2>
-        <p className="App-intro">
-          Implementations of a line chart with different React D3 libraries: Victory.js, Recharts and react-vis
-        </p>
+        <h1>React + D3 Library Demo</h1>
+        <div className="App-intro">
+          <p>Implementations of a line chart with different React D3 libraries: Victory.js, Recharts and react-vis.</p>
+          <small>Check the code in <a href="https://github.com/Golodhros/talk-react-d3">https://github.com/Golodhros/talk-react-d3</a></small>
+        </div>
         <Grid>
           <Article col='1-1'
+            className="uk-margin-bottom"
             title="Victory.js"
             lead="Low level charting library by Formidable Labs"
           >
@@ -32,14 +34,16 @@ class App extends Component {
             </section>
           </Article>
           <Article col='1-1'
+            className="uk-margin-bottom"
             title="Recharts"
-            lead="Great quality charts"
+            lead="A composable charting library built on React components"
           >
             <section className="demo demo-recharts uk-margin-bottom">
               <LineChartRecharts />
             </section>
           </Article>
           <Article col='1-1'
+            className="uk-margin-bottom"
             title="react-vis"
             lead="Uber's visualization library"
           >

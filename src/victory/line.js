@@ -20,7 +20,7 @@ class LineChartVictory extends Component {
             containerComponent={
                 <VictoryVoronoiContainer dimension="x"
                   labels={(d) => `uv: ${d.uv}`}
-                  labelComponent={<VictoryTooltip cornerRadius={0} flyoutStyle={{fill: "white"}}/>}
+                  labelComponent={<VictoryTooltip cornerRadius={0} flyoutStyle={{fill: 'white'}}/>}
                 />
               }
             theme={VictoryTheme.material}

@@ -7,12 +7,16 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 100px;
   padding: 20px;
   color: white; }
 
 .App-intro {
-  font-size: large; }
+  margin-bottom: 30px; }
+
+.App-intro p {
+  font-size: 1.2em;
+  margin: 0; }
 
 @keyframes App-logo-spin {
   from {
