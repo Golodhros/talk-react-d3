@@ -13,10 +13,9 @@
 
 .App-intro {
   margin-bottom: 30px; }
-
-.App-intro p {
-  font-size: 1.2em;
-  margin: 0; }
+  .App-intro p {
+    font-size: 1.2em;
+    margin: 0; }
 
 @keyframes App-logo-spin {
   from {
