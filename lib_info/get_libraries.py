@@ -4,7 +4,7 @@ import requests
 
 keys = [
     'name',
-    'url',
+    'html_url',
     'stargazers_count',
     'created_at',
     'description',
@@ -16,6 +16,7 @@ keys = [
 ]
 
 d3Libraries = [
+    'eventbrite/britecharts',
     'd3fc/d3fc',
     'vega/vega',
     'novus/nvd3',
@@ -24,14 +25,14 @@ d3Libraries = [
     'plotly/plotly.js',
     'misoproject/d3.chart',
     'mozilla/metrics-graphics',
-    "alexandersimoes/d3plus",
-    "c3js/c3",
-    "heavysixer/d4",
-    "epochjs/epoch",
-    "pykih/PykCharts.js",
-    "shutterstock/rickshaw",
-    "dc-js/dc.js",
-    "kotojs/kotojs",
+    'alexandersimoes/d3plus',
+    'c3js/c3',
+    'heavysixer/d4',
+    'epochjs/epoch',
+    'shutterstock/rickshaw',
+    'dc-js/dc.js',
+    'kotojs/kotojs',
+    'naver/billboard.js',
 ]
 
 reactD3Libraries = [
@@ -49,7 +50,6 @@ reactD3Libraries = [
     'plouc/nivo',
     'emeeks/semiotic',
 ]
-
 
 resultsD3libraries = {}
 fD3 = {}
