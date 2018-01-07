@@ -2,6 +2,55 @@
 # yarn lockfile v1
 
 
+"@vx/axis@^0.0.147":
+  version "0.0.147"
+  resolved "https://registry.yarnpkg.com/@vx/axis/-/axis-0.0.147.tgz#8fef03a317158a20c811b48b65ff90eca22cbaf4"
+  dependencies:
+    "@vx/group" "0.0.143"
+    "@vx/point" "0.0.143"
+    "@vx/shape" "0.0.147"
+    classnames "^2.2.5"
+    prop-types "15.5.10"
+
+"@vx/curve@0.0.143", "@vx/curve@^0.0.143":
+  version "0.0.143"
+  resolved "https://registry.yarnpkg.com/@vx/curve/-/curve-0.0.143.tgz#022c6a8a07ec019ed5820f0214da21fd93645724"
+  dependencies:
+    d3-shape "^1.0.6"
+
+"@vx/group@0.0.143", "@vx/group@^0.0.143":
+  version "0.0.143"
+  resolved "https://registry.yarnpkg.com/@vx/group/-/group-0.0.143.tgz#38dbd3fa2740d573c6fdfc691ebc15e85d3eb01b"
+  dependencies:
+    classnames "^2.2.5"
+
+"@vx/mock-data@^0.0.147":
+  version "0.0.147"
+  resolved "https://registry.yarnpkg.com/@vx/mock-data/-/mock-data-0.0.147.tgz#0c62139bc173b565be1e7eb49f2fea5b27bfebc2"
+  dependencies:
+    d3-random "^1.0.3"
+
+"@vx/point@0.0.143":
+  version "0.0.143"
+  resolved "https://registry.yarnpkg.com/@vx/point/-/point-0.0.143.tgz#7b6dfa611175ee1b74e3c392072589a79dadf265"
+
+"@vx/scale@^0.0.143":
+  version "0.0.143"
+  resolved "https://registry.yarnpkg.com/@vx/scale/-/scale-0.0.143.tgz#4a13ab93f4d59cb487d6278b55606f2460091d0b"
+  dependencies:
+    d3-scale "^1.0.5"
+
+"@vx/shape@0.0.147", "@vx/shape@^0.0.147":
+  version "0.0.147"
+  resolved "https://registry.yarnpkg.com/@vx/shape/-/shape-0.0.147.tgz#8946b2ae183b131091ff225d9422e7ec1f57f96a"
+  dependencies:
+    "@vx/curve" "0.0.143"
+    "@vx/group" "0.0.143"
+    "@vx/point" "0.0.143"
+    classnames "^2.2.5"
+    d3-shape "^1.2.0"
+    prop-types "^15.5.10"
+
 abab@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.3.tgz#b81de5f7274ec4e756d797cd834f303642724e5d"
@@ -1149,7 +1198,7 @@ clap@^1.0.9:
   dependencies:
     chalk "^1.1.3"
 
-classnames@2.2.5:
+classnames@2.2.5, classnames@^2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
@@ -1556,6 +1605,10 @@ d3-array@1, d3-array@^1.0.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-1.2.0.tgz#147d269720e174c4057a7f42be8b0f3f2ba53108"
 
+d3-array@^1.2.0, d3-array@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-1.2.1.tgz#d1ca33de2f6ac31efadb8e050a021d7e2396d5dc"
+
 d3-array@~0.7.0:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-0.7.1.tgz#a321c21558459d994eb4ad47b478240e64933942"
@@ -1608,6 +1661,10 @@ d3-path@1:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/d3-path/-/d3-path-1.0.5.tgz#241eb1849bd9e9e8021c0d0a799f8a0e8e441764"
 
+d3-random@^1.0.3:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/d3-random/-/d3-random-1.1.0.tgz#6642e506c6fa3a648595d2b2469788a8d12529d3"
+
 d3-sankey-align@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/d3-sankey-align/-/d3-sankey-align-0.1.0.tgz#709d44089dc9fdb04e109daad6a2ce2c39dc1c3e"
@@ -1628,9 +1685,27 @@ d3-scale@1.0.4, d3-scale@^1.0.0, d3-scale@^1.0.4:
     d3-time "1"
     d3-time-format "2"
 
+d3-scale@^1.0.5:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/d3-scale/-/d3-scale-1.0.7.tgz#fa90324b3ea8a776422bd0472afab0b252a0945d"
+  dependencies:
+    d3-array "^1.2.0"
+    d3-collection "1"
+    d3-color "1"
+    d3-format "1"
+    d3-interpolate "1"
+    d3-time "1"
+    d3-time-format "2"
+
 d3-shape@1.0.4, d3-shape@^1.0.0, d3-shape@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/d3-shape/-/d3-shape-1.0.4.tgz#145ee100ccbec42f8e3f1996cd05c786f79fe1c6"
+  dependencies:
+    d3-path "1"
+
+d3-shape@^1.0.6, d3-shape@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/d3-shape/-/d3-shape-1.2.0.tgz#45d01538f064bafd05ea3d6d2cb748fd8c41f777"
   dependencies:
     d3-path "1"
 
@@ -2304,6 +2379,18 @@ fb-watchman@^1.8.0, fb-watchman@^1.9.0:
   resolved "https://registry.yarnpkg.com/fb-watchman/-/fb-watchman-1.9.2.tgz#a24cf47827f82d38fb59a69ad70b76e3b6ae7383"
   dependencies:
     bser "1.0.2"
+
+fbjs@^0.8.16:
+  version "0.8.16"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.9"
 
 fbjs@^0.8.4, fbjs@^0.8.9:
   version "0.8.12"
@@ -3645,7 +3732,7 @@ longest@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
 
-loose-envify@^1.0.0, loose-envify@^1.1.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.3.1.tgz#d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848"
   dependencies:
@@ -4600,6 +4687,21 @@ promise@7.1.1, promise@^7.1.1:
   resolved "https://registry.yarnpkg.com/promise/-/promise-7.1.1.tgz#489654c692616b8aa55b0724fa809bb7db49c5bf"
   dependencies:
     asap "~2.0.3"
+
+prop-types@15.5.10:
+  version "15.5.10"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.3.1"
+
+prop-types@^15.5.10:
+  version "15.6.0"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
 
 prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@~15.5.7:
   version "15.5.8"

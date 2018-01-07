@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/miglesias/.nvm/versions/node/v6.11.2/bin/node',
+1 verbose cli   '/Users/miglesias/.nvm/versions/node/v6.11.2/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'build-css' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose run-script [ 'prebuild-css', 'build-css', 'postbuild-css' ]
+5 info lifecycle react-d3-talk@0.1.0~prebuild-css: react-d3-talk@0.1.0
+6 silly lifecycle react-d3-talk@0.1.0~prebuild-css: no script for prebuild-css, continuing
+7 info lifecycle react-d3-talk@0.1.0~build-css: react-d3-talk@0.1.0
+8 verbose lifecycle react-d3-talk@0.1.0~build-css: unsafe-perm in lifecycle true
+9 verbose lifecycle react-d3-talk@0.1.0~build-css: PATH: /Users/miglesias/.nvm/versions/node/v6.11.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/miglesias/Sites/a-d3/talk-react-d3/node_modules/.bin:/Users/miglesias/.nvm/versions/node/v6.11.2/bin:/Users/miglesias/.yarn/bin:/Users/miglesias/.evbdevtools/arcanist/bin:/bin:/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/miglesias/.rvm/bin
+10 verbose lifecycle react-d3-talk@0.1.0~build-css: CWD: /Users/miglesias/Sites/a-d3/talk-react-d3
+11 silly lifecycle react-d3-talk@0.1.0~build-css: Args: [ '-c', 'node-sass src/ -o src/' ]
+12 silly lifecycle react-d3-talk@0.1.0~build-css: Returned: code: 1  signal: null
+13 info lifecycle react-d3-talk@0.1.0~build-css: Failed to exec build-css script
+14 verbose stack Error: react-d3-talk@0.1.0 build-css: `node-sass src/ -o src/`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/miglesias/.nvm/versions/node/v6.11.2/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/miglesias/.nvm/versions/node/v6.11.2/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:891:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid react-d3-talk@0.1.0
+16 verbose cwd /Users/miglesias/Sites/a-d3/talk-react-d3
+17 error Darwin 16.7.0
+18 error argv "/Users/miglesias/.nvm/versions/node/v6.11.2/bin/node" "/Users/miglesias/.nvm/versions/node/v6.11.2/bin/npm" "run" "build-css"
+19 error node v6.11.2
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error react-d3-talk@0.1.0 build-css: `node-sass src/ -o src/`
+22 error Exit status 1
+23 error Failed at the react-d3-talk@0.1.0 build-css script 'node-sass src/ -o src/'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the react-d3-talk package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node-sass src/ -o src/
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs react-d3-talk
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls react-d3-talk
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

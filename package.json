@@ -4,6 +4,13 @@
   "private": true,
   "homepage": "https://golodhros.github.io/talk-react-d3",
   "dependencies": {
+    "@vx/axis": "^0.0.147",
+    "@vx/curve": "^0.0.143",
+    "@vx/group": "^0.0.143",
+    "@vx/mock-data": "^0.0.147",
+    "@vx/scale": "^0.0.143",
+    "@vx/shape": "^0.0.147",
+    "d3-array": "^1.2.1",
     "node-sass": "^4.5.2",
     "npm-run-all": "^4.0.2",
     "react": "^15.5.4",

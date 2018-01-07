@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+
 import LineChartVictory from './victory/line.js';
 import LineChartRecharts from './recharts/line.js';
 import LineChartRVis from './react-vis/line.js';
+import VXLineChart from './vx/line.js';
+
 import D3Logo from './extra/d3Logo.js';
 import Grid from 'react-uikit-grid';
 import Article from 'react-uikit-article';
@@ -40,6 +43,24 @@ class App extends Component {
           >
             <section className="demo demo-recharts uk-margin-bottom">
               <LineChartRecharts />
+            </section>
+          </Article>
+          <Article col='1-1'
+            className="uk-margin-bottom"
+            title="VX"
+            lead="Low-level visualization components for creating visualizations"
+          >
+            <section className="demo demo-vx uk-margin-bottom">
+              <VXLineChart
+                width={400}
+                height={200}
+                margin={{
+                  top: 10,
+                  left: 10,
+                  right: 10,
+                  bottom: 10,
+                }}
+              />
             </section>
           </Article>
           <Article col='1-1'
