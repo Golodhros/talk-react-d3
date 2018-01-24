@@ -10,6 +10,7 @@
     "@vx/mock-data": "^0.0.147",
     "@vx/scale": "^0.0.143",
     "@vx/shape": "^0.0.147",
+    "britecharts-react": "^0.3.32",
     "d3-array": "^1.2.1",
     "node-sass": "^4.5.2",
     "npm-run-all": "^4.0.2",

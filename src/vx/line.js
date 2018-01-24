@@ -29,7 +29,7 @@ function numTicksForHeight(height) {
   return 10;
 }
 
-export default class VXLineChart extends React.Component {
+export default class LineChartVX extends React.Component {
     render () {
         let {width, height, margin} = this.props;
 

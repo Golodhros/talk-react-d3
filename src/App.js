@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import LineChartVictory from './victory/line.js';
 import LineChartRecharts from './recharts/line.js';
 import LineChartRVis from './react-vis/line.js';
-import VXLineChart from './vx/line.js';
+import LineChartVX from './vx/line.js';
+import LineChartBritechartsReact from './britecharts-react/line.js';
 
 import D3Logo from './extra/d3Logo.js';
 import Grid from 'react-uikit-grid';
@@ -51,7 +52,7 @@ class App extends Component {
             lead="Low-level visualization components for creating visualizations"
           >
             <section className="demo demo-vx uk-margin-bottom">
-              <VXLineChart
+              <LineChartVX
                 width={400}
                 height={200}
                 margin={{
@@ -60,6 +61,18 @@ class App extends Component {
                   right: 10,
                   bottom: 10,
                 }}
+              />
+            </section>
+          </Article>
+          <Article col='1-1'
+            className="uk-margin-bottom"
+            title="Britecharts-React"
+            lead="React wrapper for Britecharts"
+          >
+            <section className="demo demo-bcr uk-margin-bottom">
+              <LineChartBritechartsReact
+                width={400}
+                height={200}
               />
             </section>
           </Article>
