@@ -15,8 +15,8 @@ class LineChartVictory extends Component {
   render() {
     return (
         <VictoryChart
+            width={600}
             height={300}
-            width={500}
             containerComponent={
                 <VictoryVoronoiContainer dimension="x"
                   labels={(d) => `uv: ${d.uv}`}

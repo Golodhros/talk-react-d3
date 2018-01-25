@@ -5,6 +5,7 @@ import LineChartRecharts from './recharts/line.js';
 import LineChartRVis from './react-vis/line.js';
 import LineChartVX from './vx/line.js';
 import LineChartBritechartsReact from './britecharts-react/line.js';
+import LineChartNivo from './nivo/line.js';
 
 import D3Logo from './extra/d3Logo.js';
 import Grid from 'react-uikit-grid';
@@ -37,6 +38,7 @@ class App extends Component {
               <LineChartVictory />
             </section>
           </Article>
+
           <Article col='1-1'
             className="uk-margin-bottom"
             title="Recharts"
@@ -46,6 +48,17 @@ class App extends Component {
               <LineChartRecharts />
             </section>
           </Article>
+
+          <Article col='1-1'
+            className="uk-margin-bottom"
+            title="Nivo"
+            lead="Nivo provides a rich set of dataviz components, built on top of the awesome d3 and Reactjs libraries."
+          >
+            <section className="demo demo-nivo uk-margin-bottom">
+              <LineChartNivo />
+            </section>
+          </Article>
+
           <Article col='1-1'
             className="uk-margin-bottom"
             title="VX"
@@ -64,6 +77,7 @@ class App extends Component {
               />
             </section>
           </Article>
+
           <Article col='1-1'
             className="uk-margin-bottom"
             title="Britecharts-React"
@@ -76,6 +90,7 @@ class App extends Component {
               />
             </section>
           </Article>
+
           <Article col='1-1'
             className="uk-margin-bottom"
             title="react-vis"

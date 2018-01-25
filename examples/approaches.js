@@ -114,9 +114,11 @@ class Line extends React.Component {
 
     drawLine() {
         let xScale = d3.scaleTime()
+            .domain(d3.extent(this.props.data, ({date}) => date));
             .rangeRound([0, this.props.width]);
 
         let yScale = d3.scaleLinear()
+            .domain(d3.extent(this.props.data, ({value}) => value))
             .rangeRound([this.props.height, 0]);
 
         let line = d3.line()

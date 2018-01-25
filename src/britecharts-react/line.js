@@ -154,7 +154,7 @@ export default class LineChartBritechartsReact extends Component {
     render () {
         const margin = {
             top: 60,
-            right: 30,
+            right: 50,
             bottom: 60,
             left: 70,
         };
@@ -166,6 +166,9 @@ export default class LineChartBritechartsReact extends Component {
                 title="Tooltip Title"
                 render={(props) => (
                     <Line
+                        width={600}
+                        height={300}
+                        isAnimated={true}
                         margin={margin}
                         lineCurve="basis"
                         {...props}

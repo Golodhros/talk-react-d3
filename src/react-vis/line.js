@@ -25,7 +25,7 @@ class LineChartRVis extends Component {
     render() {
         return (
             <XYPlot
-                width={500}
+                width={600}
                 height={300}
             >
                 <HorizontalGridLines />

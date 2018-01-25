@@ -12,6 +12,7 @@
     "@vx/shape": "^0.0.147",
     "britecharts-react": "^0.3.32",
     "d3-array": "^1.2.1",
+    "nivo": "^0.31.0",
     "node-sass": "^4.5.2",
     "npm-run-all": "^4.0.2",
     "react": "^15.5.4",
