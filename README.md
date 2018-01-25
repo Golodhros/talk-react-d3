@@ -1,22 +1,21 @@
-# React, D3 and the dataviz ecosystem
-## Demo and code examples for the React.js meetup talk
+# React-D3 Libraries Showcase
 
-Implementations of a line chart with different React D3 libraries: Victory.js, Recharts and react-vis.
+> Line chart demos with different React D3 libraries: Victory.js, Recharts, Nivo, VX, Britecharts-react and react-vis.
 
 ![Demo screenshot][demoSS]
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]
 
-### Setup/Usage
-Install dependencies and start the demo
+## Setup
+Install dependencies and start the demo with:
 ```
-    npm install
-    npm start
+    npm install/yarn
+    npm/yarn start
 ```
 
-### Customize
+## Customize
 You could modify the demo adding other charts and send a PR.
 
 Repo based on [create-react-app](https://github.com/facebookincubator/create-react-app).
-
 
 [demoSS]: https://github.com/Golodhros/talk-react-d3/blob/master/public/talk-react-d3-demo.png "Demo screenshots"
