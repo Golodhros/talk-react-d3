@@ -23,9 +23,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <D3Logo />
         </div>
-        <h1>React + D3 Library Demo</h1>
+        <h1>React-D3 Libraries Showcase</h1>
         <div className="App-intro">
-          <p>Implementations of a line chart with different React D3 libraries: Victory.js, Recharts and react-vis.</p>
+          <p>Line chart demos with different React D3 libraries: Victory.js, Recharts, Nivo, VX, Britecharts-react and react-vis.</p>
           <small>Check the code in <a href="https://github.com/Golodhros/talk-react-d3">https://github.com/Golodhros/talk-react-d3</a></small>
         </div>
         <Grid>
