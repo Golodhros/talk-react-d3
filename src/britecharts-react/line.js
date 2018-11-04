@@ -150,7 +150,7 @@ const oneSet = () => ({
     ],
 });
 
-export default class LineChartBritechartsReact extends Component {
+class LineChartBritechartsReact extends Component {
     render () {
         const margin = {
             top: 60,
@@ -178,3 +178,5 @@ export default class LineChartBritechartsReact extends Component {
         );
     }
 }
+
+export default LineChartBritechartsReact;

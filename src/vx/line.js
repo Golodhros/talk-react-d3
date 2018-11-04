@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Group } from '@vx/group';
 import { LinePath } from '@vx/shape';
 import { curveMonotoneX } from '@vx/curve';
@@ -29,14 +29,12 @@ function numTicksForHeight(height) {
   return 10;
 }
 
-export default class LineChartVX extends React.Component {
+class LineChartVX extends Component {
     render () {
         let {width, height, margin} = this.props;
-
         // bounds
         const xMax = width - margin.left - margin.right;
         const yMax = height - margin.top - margin.bottom;
-
         // scales
         const xScale = scaleTime({
           range: [0, xMax],
@@ -75,4 +73,6 @@ export default class LineChartVX extends React.Component {
             </svg>
         );
     }
-};
+}
+
+export default LineChartVX;
