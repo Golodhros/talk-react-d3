@@ -9,7 +9,7 @@
     "@vx/group": "^0.0.143",
     "@vx/mock-data": "^0.0.147",
     "@vx/scale": "^0.0.143",
-    "@vx/shape": "^0.0.147",
+    "@vx/shape": "^0.0.195",
     "britecharts-react": "^0.3.32",
     "d3-array": "^1.2.1",
     "nivo": "^0.31.0",
