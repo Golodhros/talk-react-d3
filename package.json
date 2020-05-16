@@ -22,7 +22,7 @@
     "react-uikit-grid": "^2.0.3",
     "react-vis": "^2.0.0-beta.4",
     "recharts": "^0.22.4",
-    "uikit": "^3.0.0-beta.22",
+    "uikit": "^3.4.2",
     "victory": "^0.19.0"
   },
   "devDependencies": {
