@@ -3949,6 +3949,11 @@ lodash.uniq@^4.5.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
+lodash@^4.17.5:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
 lodash@~4.16.4:
   version "4.16.6"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.16.6.tgz#d22c9ac660288f3843e16ba7d2b5d06cca27d777"
@@ -5089,6 +5094,11 @@ react-dom@^15.3.0, react-dom@^15.5.4:
 react-dom@~15.3.2:
   version "15.3.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.3.2.tgz#c46b0aa5380d7b838e7a59c4a7beff2ed315531f"
+
+react-fast-compare@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
+  integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
 react-measure@^2.0.2:
   version "2.0.2"
@@ -6259,40 +6269,46 @@ verror@1.3.6:
   dependencies:
     extsprintf "1.0.2"
 
-victory-chart@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/victory-chart/-/victory-chart-19.0.0.tgz#240a04b9f6c407f0486bc935a9631ddb076eb2d7"
+victory-chart@^27.1.0:
+  version "27.1.1"
+  resolved "https://registry.yarnpkg.com/victory-chart/-/victory-chart-27.1.1.tgz#db7337c0dba1353d6a08e7116df1988edea785b0"
+  integrity sha512-6QLtfDLQQdtzNfLkFIR5QR9SmWwkre0yLz0auanth9XnBdwKoMf+g+l06tsKvNfHxNw8ZaG0C/J+KwtU/5ChPg==
   dependencies:
     d3-voronoi "^1.1.2"
-    lodash "^4.17.4"
-    victory-core "^15.0.0"
+    lodash "^4.17.5"
+    react-fast-compare "^2.0.0"
+    victory-core "^24.0.0"
 
-victory-core@^15.0.0:
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/victory-core/-/victory-core-15.0.1.tgz#bba1e35a279ba7982786588265fd1ad3b57d2c09"
+victory-core@^24.0.0:
+  version "24.0.1"
+  resolved "https://registry.yarnpkg.com/victory-core/-/victory-core-24.0.1.tgz#a0b377821fe62be8dfcb0d7c35a628fee4e16616"
+  integrity sha512-loC+UafBR8nMnLkQ3suSkjMTVMlLsUaI7BiBmFYYFjy1eqEkPwA+Pa51Tbu0KIunR/1alpEjOxP1MBz1Vc1FFg==
   dependencies:
     d3-ease "^1.0.0"
     d3-interpolate "^1.1.1"
     d3-scale "^1.0.0"
-    d3-shape "^1.0.0"
+    d3-shape "^1.2.0"
     d3-timer "^1.0.0"
-    lodash "^4.17.4"
+    lodash "^4.17.5"
+    react-fast-compare "^2.0.0"
 
-victory-pie@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/victory-pie/-/victory-pie-11.0.0.tgz#9b6605508a46f2b8e5874b8d0c94cb3e1870c14b"
+victory-pie@^16.1.0:
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/victory-pie/-/victory-pie-16.1.0.tgz#12216935bef911c427f3316c80b15b9ca6563252"
+  integrity sha512-OV1C2e7KGkGjrPUf7Hr68PWuDzxsFqQkdC9E/dZ2HGQKqaYZ9bdkLC0lZYEr7mKsUs6D8iPe4RTWXyEfX84nMA==
   dependencies:
     d3-shape "^1.0.0"
-    lodash "^4.17.4"
-    victory-core "^15.0.0"
+    lodash "^4.17.5"
+    victory-core "^24.0.0"
 
-victory@^0.19.0:
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/victory/-/victory-0.19.0.tgz#71d4e196b39ff15c0480783b15771e781c8e7f47"
+victory@^0.27.2:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/victory/-/victory-0.27.2.tgz#1e6cdef88b29466befea194f26788549befa0ea3"
+  integrity sha512-/yxEJbaxmA4OJn2Zn6n8mAxzgUoOfJDElKnGhAphgtdFg++iWUFlwXtG2IOMqBZ+8olb1gJMqNC3mPTJ/7bUkw==
   dependencies:
-    victory-chart "^19.0.0"
-    victory-core "^15.0.0"
-    victory-pie "^11.0.0"
+    victory-chart "^27.1.0"
+    victory-core "^24.0.0"
+    victory-pie "^16.1.0"
 
 vm-browserify@0.0.4:
   version "0.0.4"
