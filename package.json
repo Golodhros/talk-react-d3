@@ -16,7 +16,7 @@
     "node-sass": "^4.5.2",
     "npm-run-all": "^4.0.2",
     "react": "^15.5.4",
-    "react-addons-shallow-compare": "^15.5.2",
+    "react-addons-shallow-compare": "^15.6.3",
     "react-dom": "^15.5.4",
     "react-uikit-article": "^2.0.1",
     "react-uikit-grid": "^2.0.3",
