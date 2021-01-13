@@ -13,7 +13,7 @@
     "britecharts-react": "^0.3.32",
     "d3-array": "^1.2.1",
     "nivo": "^0.31.0",
-    "node-sass": "^4.5.2",
+    "node-sass": "^4.14.1",
     "npm-run-all": "^4.0.2",
     "react": "^15.5.4",
     "react-addons-shallow-compare": "^15.5.2",
